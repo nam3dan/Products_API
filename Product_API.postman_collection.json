@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "7b4d0810-e684-4439-a226-fbbb63a705bd",
+		"name": "Product_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26937427"
+	},
+	"item": [
+		{
+			"name": "Get_All_Products",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Post_Product",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get_By_ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Update_Product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 2,\r\n    \"title\": \"Miller Lite\",\r\n    \"description\": \"A superior yardwork companion beer\",\r\n    \"price\": 16.0,\r\n    \"inventory_quantity\": 1858,\r\n    \"image\": \"https://www.brightwatersbeverage.com/uploads/2/2/7/7/22778622/s732525126178198749_p208_i1_w488.jpeg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/products/2/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"products",
+						"2",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_Product",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
